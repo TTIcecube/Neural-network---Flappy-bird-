@@ -134,7 +134,7 @@ function gen.CrossMutate(a as Neural_network, b as Neural_network) as Neural_net
 		node_nrA = (start_noteA + i) mod (weights + 1)
 		node_nrB = (start_noteB + i) mod (weights + 1)
 		tmp.weight(node_nrA) = b.weight(node_nrB)
-		tmp.biases_add(node_nrA) = b.biases_add(node_nrB)
+		'tmp.biases_add(node_nrA) = b.biases_add(node_nrB)
 	next i
 	
 	tmp.mutated += 1 
