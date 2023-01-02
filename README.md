@@ -1,4 +1,4 @@
-# Neural-network---Flappy-bird-
+# Neural-network---Flappy-bird---Freebasic
 Flappy bird frames with neural network for freebasic
 
 Version 3V now have:
