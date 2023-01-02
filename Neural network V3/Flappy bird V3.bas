@@ -1,7 +1,7 @@
 'https://github.com/TTIcecube/Neural-network---Flappy-bird-
 
 '#macro DOARGS
-'   #cmdline "-s gui"
+'   #cmdline "-w all "%f" -gen gcc -Wc -O3 -s console -target win64"
 '#endmacro
 
 #include "FB_NeuralNet\FB_NeuralNet.bi"
