@@ -1,7 +1,7 @@
 # Neural-network---Flappy-bird---Freebasic
 Flappy bird frames with neural network for freebasic
 
-Version 3V now have:
+Version 3.0 now have:
 - Signoid function to keep values withing -1 to +1 at biases
 - Biases now have a added offset value, beter learing
 - Weights now have more freedom at values beyond the -1 and +1
